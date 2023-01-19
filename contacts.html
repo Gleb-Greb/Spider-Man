@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contacts.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./img/logo.png" alt="Spider Man ">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a href="index.html" class="header__link">Home</a></li>
+                <li><a href="#" class="header__link">Harakteristiks</a></li>
+                <li><a href="gallery.html" class="header__link">Gallery</a></li>
+                <li><a href="contacts.html" class="header__link">contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact">
+        <div class="container">
+            <form action="example.html">
+                <div class="input-field"><input type="text" id="name" name="name" required><label for="name">Name</label></div>
+                <div><input type="text" id="surname" name="surname"><label for="surname">surname</label></div>
+                <div><input type="number" id="age" min="14" max="100"><label>age</label></div>
+                <div><input type="email" id="email" name="email"><label>email</label></div>
+                <div><input type="tel" id="phone" name="tel"><label>phone</label></div>
+                <label for="">Select city</label>
+                <select id="cities">
+                    <option value="Kyiv">Kyiv</option>
+                    <option value="Kharkiv">Kharkiv</option>
+                    <option value="">Lviv</option>
+                    <option value="">Rivne</option>
+                    <option value="">Odesa</option>
+                    <option value="">Herson</option>
+                    <option value="">Donetsk</option>
+                    <option value="">Lugansk</option>
+                    <option value="">Ternopil</option>
+                    <option value=""></option>
+                </select>
+                <div><select id="gender">
+                        <option value="Man">Man</option>
+                        <option value="Woman">Woman</option>
+                        <option value="Other">Other</option>
+                        <option value="Do not Specify">Do not Specify</option>
+                    </select></div>
+                <div><input type="date"></div>
+                <div><input type="color" name="" id=""></div>
+                <div><input type="file" name="" id=""></div>
+                <div><input type="password" name="" id=""></div>
+                <div><input type="range" min="-10" max="10" value="-2"></div>
+                <div>
+                    <input type="radio" name="gender" value="male" checked>
+                    <input type="radio" name="gender" value="female">
+                    <input type="radio" name="gender" value="other">
+                </div>
+                <div>
+                    <input type="checkbox" name="apple" value="apple" checked>
+                    <input type="checkbox" name="banana" value="banana">
+                </div>
+                <div><input type="hidden" name="hidden" value="hello"></div>
+                <div><label>your message</label><textarea type="text" id="message" rows="5" cols="20"></textarea></div>
+                <div><button type="reset">Reset</button></div>
+                <div><button type="submit">Submit</button></div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
